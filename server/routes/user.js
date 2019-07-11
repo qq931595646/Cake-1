@@ -5,6 +5,11 @@ const pool = require("../pool");
 // 创建路由器
 var router = express.Router();
 
+// 用户注册
+router.post("/reg", (req, res) => {
+
+});
+
 
 // 用户登录 要传入 手机号和密码
 router.post("/login", (req, res) => {
