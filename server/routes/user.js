@@ -7,7 +7,8 @@ var router = express.Router();
 
 // 用户注册
 router.post("/reg", (req, res) => {
-
+  var phone = req.query.phone;
+  
 });
 
 
